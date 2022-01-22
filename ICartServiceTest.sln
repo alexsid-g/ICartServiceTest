@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFBE2118-7904-450D-B452-4EA1EB0FB9A7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICartServiceTest.Tests", "ICartServiceTest.Tests\ICartServiceTest.Tests.csproj", "{4C7C113C-7E40-4FA5-91DA-7FA0FB6AF299}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICartServiceTest", "ICartServiceTest\ICartServiceTest.csproj", "{3BB61DCE-BD77-40F6-89F5-8A23F85604E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7C113C-7E40-4FA5-91DA-7FA0FB6AF299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7C113C-7E40-4FA5-91DA-7FA0FB6AF299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7C113C-7E40-4FA5-91DA-7FA0FB6AF299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7C113C-7E40-4FA5-91DA-7FA0FB6AF299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB61DCE-BD77-40F6-89F5-8A23F85604E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB61DCE-BD77-40F6-89F5-8A23F85604E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB61DCE-BD77-40F6-89F5-8A23F85604E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB61DCE-BD77-40F6-89F5-8A23F85604E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1CCDDD0-2BDD-451A-AE69-0F4789995892}
+	EndGlobalSection
+EndGlobal

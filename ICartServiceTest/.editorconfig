@@ -1,0 +1,38 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+dotnet_diagnostic.SA1600.severity=none
+dotnet_diagnostic.SA1601.severity=none
+dotnet_diagnostic.SA1602.severity=none
+dotnet_diagnostic.SA1633.severity=none
+dotnet_diagnostic.SA1309.severity=none
+dotnet_diagnostic.SA1200.severity=none
+dotnet_diagnostic.SA1101.severity=none
+dotnet_diagnostic.SA0001.severity=none
+
+[*.{cs,svc,asax,aspx,cshtml,csproj,sln}]
+charset = utf-8-bom
+
+[*.{config,csproj,nuspec,xml}]
+indent_size = 4
+
+[*.sln]
+indent_style = space
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{asax,aspx,config,cs,cshtml,csproj,nuspec,sln,svc,xml}]
+insert_final_newline = false
+
+# Ignore these files
+[{README.md}]
+indent_style = unset
+indent_size = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
